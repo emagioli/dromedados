@@ -8,7 +8,7 @@ function search(){
         resultSection.innerHTML = '<p>Camelada, você não digitou nada!</p>';
         return
     }
-    
+
     inputText = inputText.toLowerCase();
     
     let results = '';
@@ -25,7 +25,7 @@ function search(){
         results += `
         <div class="item-resultado">
                 <h2>
-                    <a href="#" target="_blank">${d.titulo}</a>
+                    <a href="${d.link}" target="_blank">${d.titulo}</a>
                 </h2>
                 <p class="descricao-meta">${d.descricao}</p>
                 <a href=${d.link} target="_blank">Ler mais</a>

@@ -32,7 +32,8 @@ let dataArray = [
     {
         titulo: "Random Forest: A Sabedoria da Cáfila",
         descricao: "Já ouviu falar que quatro olhos veem mais que dois? Um Random Forest é como ter um monte de olhos (ou melhor, de árvores de decisão) olhando para os seus dados. Juntas, elas criam um modelo super preciso e confiável. Ah, caso queira saber - uma cáfila é um conjunto de camelídeos. Também serve para dromedários!",
-        tags: ["ensemble", "árvore de decisão", "machine learning", "alta precisão", "overfitting"]
+        tags: ["ensemble", "árvore de decisão", "machine learning", "alta precisão", "overfitting"],
+        link: "https://en.wikipedia.org/wiki/Random_forest"
     },
     {
         titulo: "Deep Learning: O Cérebro Artificial dos Camelos",
