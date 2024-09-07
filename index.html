@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/dario.png" type="image/x-icon">
+    <title>Dromedados</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <h1>Dromedados</h1>
+            <img id="dromedary-icon" src="./img/dromedary-data-icon.png" alt="ícone de dromedário">
+        </section>
+        <p>Aprenda <strong>Ciência de Dados</strong> com um <s>camelo</s> dromedário.</p>
+    </header>
+    <main>
+        <div class="inputArea">
+            <input type="text" id="search-bar" placeholder="Dário te desafia a pesquisar 'Regressão'... Topa?" onkeypress="handleKeyPress(event)">
+            <button onclick="search()">Buscar</button>
+        </div>        
+        <section id="results">
+        </section>
+        <img id="dario" src="./img/dario.png" alt="Dário, o dromedário de dados.">
+    </main>
+    <footer>
+        <p>Desenvolvido por Enzo Magioli na Imersão Dev com Google Gemini da Alura 2024. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

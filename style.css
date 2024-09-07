@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #FDF0CC;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #333;
+}
+
+header img#dromedary-icon {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #333;
+}
+
+header strong {
+  font-weight: bold;
+}
+
+header s {
+  color: #888;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#search-bar {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #FFCC00;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FFB800;
+}
+
+#dario {
+  width: 200px;
+  margin-top: 20px;
+}
+
+#results {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#results section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#results section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#results section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+#results section a {
+  color: #FF9900;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #FFE4B5;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #333;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Parte responsiva */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2.5rem;
+  }
+
+  #search-bar {
+      width: 250px;
+  }
+
+  button {
+      font-size: 0.9rem;
+  }
+
+  #dario {
+      width: 150px;
+  }
+
+  #results section {
+      padding: 15px;
+  }
+}
+
+/* Estilo para os cards de resultado */
+.item-resultado {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: left;
+  color: #333;
+}
+
+.item-resultado h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.item-resultado h2 a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.item-resultado h2 a:hover {
+  color: #FF9900;
+}
+
+.item-resultado p.descricao-meta {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.item-resultado a {
+  color: #FF9900;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.item-resultado a:hover {
+  color: #FF8000;
+}
